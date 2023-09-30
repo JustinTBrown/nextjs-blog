@@ -31,6 +31,18 @@
     "npx install -g n": {
       "name": "npx install -g n",
       "command": "npx install -g n"
+    },
+    "nix-env -i nodejs -y": {
+      "name": "nix-env -i nodejs -y",
+      "command": "nix-env -i nodejs -y"
+    },
+    "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash": {
+      "name": "Install NVM via curl",
+      "command": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash"
+    },
+    "nvm install --lts": {
+      "name": "Install Node LTS with nvm",
+      "command": "nvm install --lts"
     }
   }
 }
