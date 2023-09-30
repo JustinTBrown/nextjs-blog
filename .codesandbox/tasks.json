@@ -5,16 +5,24 @@
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "yarn install -g n": {
-      "name": "yarn install -g n",
+      "name": "Install n",
       "command": "yarn install -g n"
     },
     "yarn global add n": {
-      "name": "Install n",
+      "name": "Add n",
       "command": "yarn global add n"
     },
     "n lts": {
       "name": "Install Node LTS",
       "command": "n lts"
+    },
+    "corepack enable": {
+      "name": "Corepace enable",
+      "command": "corepack enable"
+    },
+    "npm install --global yarn": {
+      "name": "Update Yarn",
+      "command": "npm install --global yarn"
     }
   }
 }
