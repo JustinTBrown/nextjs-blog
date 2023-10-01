@@ -4,45 +4,12 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "yarn install -g n": {
-      "name": "Install n",
-      "command": "yarn install -g n"
-    },
-    "yarn global add n": {
-      "name": "Add n",
-      "command": "yarn global add n"
-    },
-    "n lts": {
-      "name": "Install Node LTS",
-      "command": "n lts"
-    },
-    "corepack enable": {
-      "name": "Corepace enable",
-      "command": "corepack enable"
-    },
-    "npm install --global yarn": {
-      "name": "Update Yarn",
-      "command": "npm install --global yarn"
-    },
-    "npm install -g n": {
-      "name": "npm install -g n",
-      "command": "npm i -g n"
-    },
-    "npx install -g n": {
-      "name": "npx install -g n",
-      "command": "npx install -g n"
-    },
-    "nix-env -i nodejs -y": {
-      "name": "nix-env -i nodejs -y",
-      "command": "nix-env -i nodejs -y"
-    },
-    "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash": {
-      "name": "Install NVM via curl",
-      "command": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash"
-    },
-    "nvm install --lts": {
-      "name": "Install Node LTS with nvm",
-      "command": "nvm install --lts"
+    "npm run dev": {
+      "name": "Run Dev",
+      "command": "npm run dev",
+      "preview": {
+        "port": 3000
+      }
     }
   }
 }
